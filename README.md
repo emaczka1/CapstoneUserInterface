@@ -1,2 +1,2 @@
 # CapstoneUserInterface
-User interface documents for capstone project
+This repository contains user interface-related documents pertaining to my capstone project, Character Notebook.
