@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Capstone Project Style Guide</title>
+
+    <style>
+        body {
+            font-family: "Verdana", "Trebuchet MS", Helvetica, Arial, "sans-serif";
+            color: black;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        button {
+            background-color: rgb(232, 111, 125);
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+
+        .inputLabel {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        input.inputField {
+            padding: 5px;
+            border: 1px solid rgb(169, 167, 167);
+        }
+
+        div.box {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 0 10px 0 10px;
+        }
+
+        #primary1 {
+            background-color: rgb(232, 111, 125);
+        }
+
+        #primary2 {
+            background-color: rgb(136, 226, 242);
+        }
+
+        #primary3 {
+            background-color: rgb(226, 226, 226);
+        }
+
+
+        svg.svg-inline--fa {
+            color: white;
+        }
+
+        .spacer {
+            margin-top: 25px;
+        }
+
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+         /* Link styles */
+         a {
+                color: rgb(35, 163, 186);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            } 
+
+        /* relationship visualization styles */
+        .relationship {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .relationship-type {
+            min-width: 100px;
+            white-space: nowrap;
+        }
+
+        .color-box {
+            height: 30px;
+            flex: 0 0 100px;
+           
+        }
+
+        .friends {
+            background-color: rgb(101, 155, 255);
+            
+        }
+
+        .romance {
+            background-color: rgb(253, 115, 200);
+           
+        }
+
+        .family {
+            background-color: rgb(44, 183, 72);
+            
+        }
+        .enemies {
+            background-color: rgb(214, 47, 47);
+            
+        }
+
+
+        
+    </style>
+
+</head>
+
+<body>
+    <a name="Top"></a>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#">
+                    <span class="navbar-brand">
+                        <i class="fas fa-home"></i>My Interface Style Guide</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="#font">Font</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#colorTheme">Color Theme</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#buttons">Buttons</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#headings">Headings</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#links">Links</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#formElements">Form Elements</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#relationships">Relationships</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+        
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="about"></a>Character Notebook Style Guide</h1>
+                </div>
+                <p>The following is a collection of specific style guide information for my capstone project Character Notebook.</p>
+            </div>
+
+
+            <!-- Fonts -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="fonts"></a>Font</h1>
+                </div>
+                <p>Charcater Notebook will use the "Verdana", "Trebuchet MS", Helvetica, Arial, "sans-serif" font-family with black text.</p>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+        
+
+            <!-- Color Scheme -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="colorScheme"></a>Color Scheme</h1>
+                </div>
+                <p>Character Notebook will incorporate the below color scheme in its interface.</p>
+                <div class="box" id="primary1"></div>
+                <div class="box" id="primary2"></div>
+                <div class="box" id="primary3"></div>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+    
+
+            <!-- Buttons -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="buttons"></a>Buttons</h1>
+                </div>
+                <p>Character Notebook will contain buttons of the below color and shape. This bright color and rounded corners will make the button obvious to the user.</p>
+                <button>Button</button>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+
+
+            <!-- Headings -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="headings"></a>Headings</h1>
+                </div>
+                <p>The below font sizes and styles are used in the application for various content headings.</p>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+
+
+            <!-- Links -->
+            <div>
+                <h1>
+                    <a name="headings"></a>Links</h1>
+                <p>
+                    Links will be styled with the color rgb(35, 163, 186) and no underlines. Hovering over links will underline them, to show the user that they are clickable.
+                </p>
+            <a href="#">Example Link</a>
+        </div>
+        <div class="spacer">
+            <a href="#Top">Back to Top</a>
+        </div>
+           
+
+            <!-- Form Elements -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="formElements"></a>Form Elements</h1>
+                </div>
+                <p>For the varous forms that the application will contain, it will contain input fields and labels with the below styling:</p>
+                <form>
+                    <label for="name" class="inputLabel">Name</label>
+                    <input type="input" id="name" class="inputField" value="">
+                </form>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+
+
+            <!-- Character Relationships -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="relationships"></a>Relationships</h1>
+                </div>
+                <p>For the visualization of character relationships, the following colors will each represent a type of relationship. The different colors will differentiate the types of relationships between characters.</p>
+                <div class="relationship">
+                    <span class="relationship-type">Friends:</span>
+                    <div class="friends color-box"></div>
+                </div>
+                <div class="relationship">
+                    <span class="relationship-type">Family:</span>
+                    <div class="family color-box"></div>
+                </div>
+                <div class="relationship">
+                    <span class="relationship-type">Romance:</span>
+                    <div class="romance color-box"></div>
+                </div>
+                <div class="relationship">
+                    <span class="relationship-type">Enemies:</span>
+                    <div class="enemies color-box"></div>
+                </div>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+        </div>
+    </div>  
+   
+</body>
+
+</html>
