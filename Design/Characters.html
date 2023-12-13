@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<hmtl>
+<html>
     <head>
         <title>Characters</title>
         <link rel="stylesheet" type="text/css" href="CNhome.css">
@@ -10,6 +10,13 @@
             <h1>Your Characters</h1>
         </header>
 
+        <!-- back/logout button -->
+        <a href="index.html" class="back-button">&lt; Log Out</a>
+
+        <input type="text" id="searchInput" placeholder="Search characters...">
+        <div id="charactersList"></div>
+        <script src="search.js"></script>
+
     <div class="container">
         <a href="CharacterCreation.html">
             <button type="button">Add New Character</button>
@@ -17,7 +24,7 @@
     </div>
 
     <div class="container" id="charactersList">
-        <!-- Characters list will be dynamically added here -->
+        <!-- Characters list is added here -->
     </div>
 
     <script src="characters.js"></script> <!-- populate list of characters -->

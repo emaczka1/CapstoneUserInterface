@@ -45,8 +45,42 @@ button {
     color: white;
     width: 250px;
     text-align: center;
+    margin-top: 50px;
     
 }
+
+.su-button {
+    background-color: rgb(35, 163, 186);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 30px 60px;
+    color: white;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+/* Link styles */
+
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(136, 226, 242);
+}
+
+a, .back-button {
+    color: rgb(35, 163, 186);
+    text-decoration: none;
+}
+
+a:hover, .back-button:hover {
+    text-decoration: underline;
+} 
 
 /* forms */
 .login-container {
@@ -84,18 +118,11 @@ button {
     gap: 20px;
 }
 
-.left-container {
+.form-container {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 400px;;
-}
-
-.right-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-right: 400px;
+    margin: 0 auto;
 }
 
 .creation-container {
@@ -105,6 +132,7 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: left;
+    margin: 0 auto;
 }
 
 .creation-container label {
@@ -128,4 +156,10 @@ button {
     width: 300px;
     
     text-align: center;
+}
+
+/* Add spacing between characters */
+
+.character-item {
+    margin-bottom: 30px;
 }
